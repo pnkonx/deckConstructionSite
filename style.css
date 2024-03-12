@@ -15,13 +15,13 @@ header {
     flex-direction: row;
     width: 100%;
     padding: 20px;
-    background-color: ;
+    background-color: white;
     font-size: 1em;
 }
 
 .logo {
-    width: 20%;
-    margin-left: 100px;
+    width: 50%;
+    margin-left: 200px;
 }
 
 .buttons {
@@ -31,6 +31,10 @@ header {
     width: 45%;
     font-size: 1em;
     
+}
+button a {
+    text-decoration: none;
+    color:rgb(80, 57, 57)
 }
 
 .call {
