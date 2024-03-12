@@ -5,6 +5,7 @@ liElements.forEach(liElement => {
      document.querySelector('.active')?.classList.remove('active');
         
        liElement.classList.add('active');
+       
         
 
        
