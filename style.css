@@ -39,7 +39,7 @@ button a {
 }
 
 .call {
-    width: 400px;
+    min-width: 350px;
     height: 50px;
     border-radius: 10px;
     font-size: 1rem;
@@ -52,7 +52,7 @@ button a {
 }
 
 .emailQuote {
-    width: 400px;
+    min-width: 350px;
     height: 50px;
     border-radius: 10px;
     font-size: 1rem;
@@ -130,21 +130,11 @@ li a:hover {
  
 }
 
-
-
-
 .active {
     text-shadow: 1px 0px 0px rgb(64, 63, 63);
     
     margin: 1em;
 }
-
-.navList li a:active {
-    
-}
-
-
-
 
 
 .about {
