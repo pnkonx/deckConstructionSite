@@ -120,6 +120,22 @@ li a {
     font-size: 1.5em;
 }
 
+li a:active {
+    color: antiquewhite;
+    
+}
+
+
+
+.navList li:active {
+    background-color: rgb(110, 88, 71);
+    letter-spacing: .1rem;
+    color: antiquewhite;
+    text-shadow: .5px 0px 0px antiquewhite;
+    box-shadow: inset 0px 0px 10px 10px rgb(80, 57, 57);
+    
+}
+
 
 
 li a:hover {
