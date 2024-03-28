@@ -95,7 +95,8 @@ nav ul {
     width: 60%;
     max-width: fit-content;
     padding-top: 20px;
-    font-size: 1rem;
+    font-size: 1em;
+    
     
 }
 nav ul li {
@@ -109,6 +110,7 @@ nav ul li {
     max-height: 20%;
     margin-left: 0px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 li a {
@@ -375,16 +377,17 @@ footer p {
         max-width: unset;
         width: 100%;
         padding: 0;
-        align-items: center;
-        justify-content: center;
+        align-items: ;
+        justify-content: ;
+        text-align: center;
     }
     nav ul li {
         display: inline-block;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+        justify-content: ;
+        text-align: ;
+        align-items: ;
         width: 100vw;
-        padding: 20px;
+        padding: 5px;
         margin: 0;
         max-height: unset;
         
@@ -396,6 +399,6 @@ footer p {
         margin: 0;
     }
     .specialClass {
-        padding: 80px;
+        width: 220px;
     }
 }
