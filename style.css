@@ -461,6 +461,25 @@ footer p {
     nav ul {
         flex-direction: column;
     }
+    .verifiedRatings {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactOptions {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 400px;
+        align-items: center;
+    }
+    .contactInfoDiv {
+        width: 100%;
+    }
+    form {
+        width: 100%;
+        border-left: unset;
+        
+    }
 }
 @media only screen and (max-width: 450px) {
     .buttons {
@@ -476,20 +495,6 @@ footer p {
         grid-template-columns: 1fr 1fr;
         height: 1340px;
     }
-    .verifiedRatings {
-        flex-direction: column;
-    }
-    .contactOptions {
-        flex-direction: column;
-        justify-content: space-between;
-        height: 400px;
-    }
-    .contactInfoDiv {
-        width: 100%;
-    }
-    form {
-        width: 100%;
-        border-left: unset;
-        
-    }
+    
+   
 }
